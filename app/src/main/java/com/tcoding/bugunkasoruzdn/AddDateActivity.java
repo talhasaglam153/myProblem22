@@ -13,14 +13,14 @@ import android.widget.Toast;
 
 public class AddDateActivity extends AppCompatActivity {
     ImageView imageView ;
-    Guideline guidelineLeft,getGuidelineRight;
+    Guideline guidelineLeft,guidelineRight;
     EditText etDateMonth,etDateDay;
     Button  buttonSave;
 
     public void init(){
         imageView = findViewById(R.id.imageView);
         guidelineLeft = findViewById(R.id.guidelineLeft);
-        getGuidelineRight = findViewById(R.id.guidelineRight);
+        guidelineRight = findViewById(R.id.guidelineRight);
         etDateMonth = findViewById(R.id.etDateMonth);
         etDateDay = findViewById(R.id.etDateDay);
         buttonSave = findViewById(R.id.buttonSave);

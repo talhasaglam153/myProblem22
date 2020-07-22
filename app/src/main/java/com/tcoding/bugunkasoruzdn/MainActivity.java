@@ -42,7 +42,7 @@ public class MainActivity extends AppCompatActivity {
         dateMonthArray = new ArrayList<>();
         dateDayArray = new ArrayList<>();
         adapter = new DateAdapter(this, dateIdArray, dateMonthArray, dateDayArray);
-        rv.setLayoutManager(new LinearLayoutManager(this));
+        rv.setLayoutManager(new StaggeredGridLayoutManager(2,StaggeredGridLayoutManager.VERTICAL));
         rv.setEnabled(true);
         rv.setAdapter(adapter);
     }
