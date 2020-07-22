@@ -43,7 +43,9 @@ public class DateAdapter extends RecyclerView.Adapter<DateAdapter.myViewHolder> 
         holder.lineer.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(myContext, "Tıklandı", Toast.LENGTH_SHORT).show();
+
+
+
             }
         });
 
