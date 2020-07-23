@@ -44,7 +44,10 @@ public class DateAdapter extends RecyclerView.Adapter<DateAdapter.myViewHolder> 
             @Override
             public void onClick(View v) {
 
-
+                    Intent newIntent = new Intent(myContext,LessonActivity.class);
+                    newIntent.putExtra("date",dateMounthArray.get(position).toString());
+                    newIntent.putExtra("dateId",dateIdArray.get(position).toString());
+                    myContext.startActivity(newIntent);
 
             }
         });

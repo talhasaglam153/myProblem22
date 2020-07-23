@@ -36,6 +36,7 @@ public class AddDateActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
                addData();
+
             }
         });
     }
